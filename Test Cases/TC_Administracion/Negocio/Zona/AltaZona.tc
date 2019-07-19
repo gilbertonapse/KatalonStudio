@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AltaZona</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6dc69a74-a375-469a-ab33-a04f054aef18</testCaseGuid>
+   <variable>
+      <defaultValue>'Z4'</defaultValue>
+      <description></description>
+      <id>480c5468-f0e8-43e9-b06a-b37fe3dec7e2</id>
+      <masked>false</masked>
+      <name>zoneCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Zona 4'</defaultValue>
+      <description></description>
+      <id>65b03654-24ee-445f-b523-e3ca059d1a7b</id>
+      <masked>false</masked>
+      <name>zoneName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Descripcion zona'</defaultValue>
+      <description></description>
+      <id>b7067876-0193-49f4-b348-9de714d59066</id>
+      <masked>false</masked>
+      <name>zoneDescription</name>
+   </variable>
+</TestCaseEntity>

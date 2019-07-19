@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AltaSubzona</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecdece32-235c-4ca2-93c5-755244cfafc5</testCaseGuid>
+   <variable>
+      <defaultValue>'SZ4'</defaultValue>
+      <description></description>
+      <id>583efb50-e991-46a0-a5eb-84fb35270416</id>
+      <masked>false</masked>
+      <name>subzoneCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Subzona 4'</defaultValue>
+      <description></description>
+      <id>e0c5de84-ab67-4ea6-b3b6-5bea8297a94b</id>
+      <masked>false</masked>
+      <name>subzoneName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Descripcion subzona'</defaultValue>
+      <description></description>
+      <id>d815dd1b-a322-49e1-b662-a7731541d913</id>
+      <masked>false</masked>
+      <name>subzoneDescription</name>
+   </variable>
+</TestCaseEntity>

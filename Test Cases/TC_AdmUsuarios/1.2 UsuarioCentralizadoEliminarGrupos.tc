@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.2 UsuarioCentralizadoEliminarGrupos</name>
+   <tag></tag>
+   <comment>Estoy en el index de Administracion de usuarios
+Edicion exitosa. Estoy de nuevo en el index</comment>
+   <testCaseGuid>ef9e2cc7-22e9-4d2e-bcbb-fbe0a79a043a</testCaseGuid>
+</TestCaseEntity>

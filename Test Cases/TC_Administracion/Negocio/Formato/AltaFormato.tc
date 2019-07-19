@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AltaFormato</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77541685-b2fd-4b5c-a781-6f22a827e580</testCaseGuid>
+   <variable>
+      <defaultValue>'F4'</defaultValue>
+      <description></description>
+      <id>4bc570ab-4b18-4f4b-82b6-ffa22fe2648e</id>
+      <masked>false</masked>
+      <name>formatCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Formato 4'</defaultValue>
+      <description></description>
+      <id>f256a5fc-4ced-4ce8-9852-01b6caa1a4c3</id>
+      <masked>false</masked>
+      <name>formatName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Descripcion formato'</defaultValue>
+      <description></description>
+      <id>869931f2-768e-418a-bf68-6d96ed344ce2</id>
+      <masked>false</masked>
+      <name>formatDescription</name>
+   </variable>
+</TestCaseEntity>

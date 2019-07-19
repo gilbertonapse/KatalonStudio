@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://10.4.11.8:8080/bridge/login/auth'</initValue>
+      <name>bm_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'suser'</initValue>
+      <name>user_suser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123suser'</initValue>
+      <name>pass_suser</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

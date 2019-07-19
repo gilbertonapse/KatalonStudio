@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PruebaDatabase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd6f6ea8-18cc-4b3b-9573-cb64a4d15717</testCaseGuid>
+   <variable>
+      <defaultValue>'suser'</defaultValue>
+      <description></description>
+      <id>e85c7ce7-af81-4589-9172-ec64fc98b2bb</id>
+      <masked>false</masked>
+      <name>userCode</name>
+   </variable>
+</TestCaseEntity>
