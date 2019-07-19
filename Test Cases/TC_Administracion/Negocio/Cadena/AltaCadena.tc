@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AltaCadena</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>426be116-ab8e-491b-9249-fb7567def615</testCaseGuid>
+   <variable>
+      <defaultValue>'C7'</defaultValue>
+      <description></description>
+      <id>84296906-9ab3-44a0-9a01-e7d97bd255cf</id>
+      <masked>false</masked>
+      <name>chainCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cadena 7'</defaultValue>
+      <description></description>
+      <id>d030fbca-eeb9-453a-8d74-e3a61fd0bddb</id>
+      <masked>false</masked>
+      <name>chainName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Descripcion Cadena'</defaultValue>
+      <description></description>
+      <id>f71faa52-1941-4a8a-8725-2cf44be77263</id>
+      <masked>false</masked>
+      <name>chainDescription</name>
+   </variable>
+</TestCaseEntity>

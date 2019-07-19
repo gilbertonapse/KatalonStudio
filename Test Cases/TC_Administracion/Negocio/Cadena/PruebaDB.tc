@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PruebaDB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aedd1d99-3313-4d32-999f-6e97df57210d</testCaseGuid>
+   <variable>
+      <defaultValue>'C35555'</defaultValue>
+      <description></description>
+      <id>8aa64a8f-3673-467b-b60b-25cede4c16a3</id>
+      <masked>false</masked>
+      <name>chainCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cadena 7'</defaultValue>
+      <description></description>
+      <id>7df143e5-5a78-487e-a950-6a46f6307404</id>
+      <masked>false</masked>
+      <name>chainName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Descripcion Cadena'</defaultValue>
+      <description></description>
+      <id>8712a8b1-6b00-45d7-83b1-58df379d29aa</id>
+      <masked>false</masked>
+      <name>chainDescription</name>
+   </variable>
+</TestCaseEntity>
