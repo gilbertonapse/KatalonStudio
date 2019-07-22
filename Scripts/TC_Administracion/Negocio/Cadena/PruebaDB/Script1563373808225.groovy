@@ -19,10 +19,11 @@ CustomKeywords.'com.database.sql.connectDB'(GlobalVariable.DBurl, GlobalVariable
 def recordset = CustomKeywords.'com.database.sql.executeQuery'("select * from PA_STR_STORECHAIN where CODE = '" + chainCode + 
     "'")
 
-if (recordset.next() != -1) {
+if (recordset.next() && recordset.getString('NAME') == chainName) {
     System.out.println('Cadena ' + chainName + ' creada correctamente')
 } else {
     System.out.println('No se creó el registro')
+    throw new com.kms.katalon.core.exception.StepFailedException('Fallado no se creo el registro.')
 }
 
 CustomKeywords.'com.database.sql.closeDatabaseConnection'()
