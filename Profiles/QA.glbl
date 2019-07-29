@@ -32,7 +32,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'BMC43_1607'</initValue>
-      <name>DBname</name>
+      <name>DBCname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -48,5 +48,15 @@
       <description></description>
       <initValue>'Nosotros123'</initValue>
       <name>DBpassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'BMT43_1607'</initValue>
+      <name>DBTname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://10.4.11.24:8180/bridge/login/auth'</initValue>
+      <name>Url_Tienda</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

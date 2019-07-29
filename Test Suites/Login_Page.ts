@@ -14,7 +14,7 @@
       <guid>0496444d-c1c7-43e6-b037-754043e1a1d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_LogIn/LogInCall</testCaseId>
+      <testCaseId>Test Cases/TC_LogIn/LogInCallCentral</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>76b1d380-25dd-4dc0-8422-f8b12de03e90</guid>

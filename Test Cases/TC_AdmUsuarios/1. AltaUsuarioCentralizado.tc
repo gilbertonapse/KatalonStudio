@@ -4,10 +4,10 @@
    <name>1. AltaUsuarioCentralizado</name>
    <tag></tag>
    <comment>Estoy en el index de Administracion de usuarios
-Alta exitosa. Estoy de nuevo en el index</comment>
+Alta exitosa. De nuevo en el index</comment>
    <testCaseGuid>a9d068ee-b829-4eb5-8a1c-1ed2c4d0868a</testCaseGuid>
    <variable>
-      <defaultValue>'testingbase2'</defaultValue>
+      <defaultValue>'KatalonUser19'</defaultValue>
       <description></description>
       <id>bd6e8b7a-154b-4c8c-bec8-8d3b254a588b</id>
       <masked>false</masked>

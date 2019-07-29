@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('TC_LogIn/LogInCall'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_LogIn/LogInCallCentral'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ElementsBridge/Entradas_Index/AdministracionIndex'))
 
@@ -39,7 +39,7 @@ WebUI.verifyTextPresent('Registro de cadena guardado exitosamente', false)
 
 WebUI.closeBrowser()
 
-CustomKeywords.'com.database.sql.connectDB'(GlobalVariable.DBurl, GlobalVariable.DBname, GlobalVariable.DBport, GlobalVariable.DBuser, 
+CustomKeywords.'com.database.sql.connectDB'(GlobalVariable.DBurl, GlobalVariable.DBCname, GlobalVariable.DBport, GlobalVariable.DBuser, 
     GlobalVariable.DBpassword)
 
 def recordset = CustomKeywords.'com.database.sql.executeQuery'(('select * from PA_STR_STORECHAIN where CODE =\' ' + chainCode) + 
@@ -48,7 +48,7 @@ def recordset = CustomKeywords.'com.database.sql.executeQuery'(('select * from P
 if (recordset.next() != -1) {
     System.out.println(('Cadena ' + chainName) + ' creada correctamente')
 } else {
-    System.out.println('No se creó el registro')
+    System.out.println('No se cre� el registro')
 }
 
 CustomKeywords.'com.database.sql.closeDatabaseConnection'()

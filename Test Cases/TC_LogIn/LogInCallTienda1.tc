@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LogInCallTienda1</name>
+   <tag></tag>
+   <comment>Login exitoso</comment>
+   <testCaseGuid>7c2b486c-d1ce-4ed2-8b53-64fd35f4ab11</testCaseGuid>
+</TestCaseEntity>

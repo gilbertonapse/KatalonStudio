@@ -13,18 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'com.database.sql.connectDB'(GlobalVariable.DBurl, GlobalVariable.DBCname, GlobalVariable.DBport, GlobalVariable.DBuser, 
-    GlobalVariable.DBpassword)
+WebUI.openBrowser('')
 
-def recordset = CustomKeywords.'com.database.sql.executeQuery'("select * from PA_STR_STORECHAIN where CODE = '" + chainCode + 
-    "'")
+WebUI.navigateToUrl(GlobalVariable.Url_Tienda)
 
-if (recordset.next() && recordset.getString('NAME') == chainName) {
-    System.out.println('Cadena ' + chainName + ' creada correctamente')
-} else {
-    System.out.println('No se cre� el registro')
-    throw new com.kms.katalon.core.exception.StepFailedException('Fallado, no se creo el registro.')
-}
+WebUI.waitForPageLoad(5)
 
-CustomKeywords.'com.database.sql.closeDatabaseConnection'()
+WebUI.setText(findTestObject('ElementsBridge/Login/userInput'), GlobalVariable.user_suser)
+
+WebUI.setText(findTestObject('ElementsBridge/Login/passwordInput'), GlobalVariable.pass_suser)
+
+WebUI.click(findTestObject('ElementsBridge/Login/submitBtn'))
+
+WebUI.waitForPageLoad(3)
+
+WebUI.verifyElementPresent(findTestObject('ElementsBridge/Login/logoutReference'), 0)
+
+WebUI.comment('Login exitoso')
 

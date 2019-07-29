@@ -11,20 +11,20 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//button[@name = 'create' and @id = 'create']</value>
+         <value>//*[@id = 'create']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -49,10 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                            
-                            Guardar
-                        </value>
+      <value>Guardar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

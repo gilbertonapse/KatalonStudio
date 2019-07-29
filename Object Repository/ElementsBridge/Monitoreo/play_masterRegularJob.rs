@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>check_blocksOnUserNoActivity</name>
+   <name>play_masterRegularJob</name>
    <tag></tag>
-   <elementGuidId>4f204e40-8bd6-48bd-8fc6-d8ac92401027</elementGuidId>
+   <elementGuidId>da842556-3bee-46d9-9074-eeb664aca0d1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='blocksOnUserNoActivity']</value>
+         <value>//tr[4]/td[6]/a[3]/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;quartz-jobs&quot;)/tbody[1]/tr[4]/td[@class=&quot;quartz-actions&quot;]/a[@class=&quot;process-tooltip&quot;]/i[@class=&quot;fa gridicon fa-play icon-green&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,83 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>checkbox</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>blocksOnUserNoActivity</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>checked</name>
-      <type>Main</type>
-      <value>checked</value>
+      <value>i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>class</name>
       <type>Main</type>
-      <value>1</value>
+      <value>fa gridicon fa-play icon-green</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>blocksOnUserNoActivity</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;blocksOnUserNoActivity&quot;)</value>
+      <value>id(&quot;quartz-jobs&quot;)/tbody[1]/tr[4]/td[@class=&quot;quartz-actions&quot;]/a[@class=&quot;process-tooltip&quot;]/i[@class=&quot;fa gridicon fa-play icon-green&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='blocksOnUserNoActivity']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmRsUser']/p[10]/span/input[2]</value>
+      <value>//table[@id='quartz-jobs']/tbody/tr[4]/td[6]/a[3]/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Correr en: 631ms'])[1]/following::i[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon Jul 22 13:35:00 ART 2019'])[1]/following::i[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ejecutar ahora'])[1]/preceding::i[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sts.console.datamanagement.MasterRegularReplicationJob'])[1]/preceding::i[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p[10]/span/input[2]</value>
+      <value>//tr[4]/td[6]/a[3]/i</value>
    </webElementXpaths>
 </WebElementEntity>

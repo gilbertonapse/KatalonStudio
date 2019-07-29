@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCorrerJobs</name>
+   <tag></tag>
+   <comment>Login exitoso</comment>
+   <testCaseGuid>cd35b74c-7941-4970-8d61-127d18adb1a2</testCaseGuid>
+</TestCaseEntity>

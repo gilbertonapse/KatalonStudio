@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;reports-security&quot;)/li[1]/a[1][count(. | //a[@href = '/bridge/rsUser/index' and (text() = 'Administración de Usuarios' or . = 'Administración de Usuarios')]) = count(//a[@href = '/bridge/rsUser/index' and (text() = 'Administración de Usuarios' or . = 'Administración de Usuarios')])]</value>
+         <value>//a[@href = '/bridge/rsUser/index' and (text() = 'Administración de Usuarios' or . = 'Administración de Usuarios')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <value>Administración de Usuarios</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
